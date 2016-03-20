@@ -22,8 +22,7 @@ public class MainActivity extends AppCompatActivity {
         FragmentManager fragmentManager = getSupportFragmentManager();
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         Fragment fragment = new TaskListFrg();
-        fragmentTransaction.add(R.id.content_frg, fragment, "TaskListFrg")
-                .commit();
+        fragmentTransaction.add(R.id.content_frg, fragment, "TaskListFrg").commit();
     }
 
     @Override
